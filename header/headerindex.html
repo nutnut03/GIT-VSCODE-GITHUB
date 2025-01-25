@@ -31,9 +31,23 @@
 					<button type="submit" name="logout-submit">Logout</button>
 				</form>
 			</div>
-			<header>
-				<h1>Header</h1>
-			</header>
+			<section>
+				<h1>Signup</h1>
+				<form action="includes/signup.inc.php" method="post">
+					<input type="text" name="uid" placeholder="Username" />
+					<input type="text" name="mail" placeholder="Email" />
+					<input type="password" name="pwd" placeholder="Password" />
+					<input
+						type="password"
+						name="pwd-repeat"
+						placeholder="Repeat Password"
+					/>
+					<button type="submit" name="signup-submit">Signup</button>
+				</form>
+			</section>
+			<footer>
+				<p>Footer</p>
+			</footer>
 		</header>
 	</body>
 </html>
